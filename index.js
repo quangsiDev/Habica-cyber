@@ -60,6 +60,6 @@ app.delete("/todos/:id", async (req, res) => {
   } catch (error) {}
 });
 
-app.listen(process.env.PORT | 5000, () => {
+app.listen(process.env.PORT || 5000, () => {
   console.log("server on");
 });
