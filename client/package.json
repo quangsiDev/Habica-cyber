@@ -4,10 +4,12 @@
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.1.2",
+    "@tailwindcss/forms": "^0.3.3",
     "@tailwindcss/postcss7-compat": "^2.1.4",
     "@testing-library/jest-dom": "^5.13.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "antd": "^4.16.3",
     "autoprefixer": "^9.8.6",
     "postcss": "^7.0.35",
     "react": "^17.0.2",
@@ -21,7 +23,7 @@
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject"
-},
+  },
   "eslintConfig": {
     "extends": [
       "react-app",

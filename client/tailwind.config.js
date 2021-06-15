@@ -1,11 +1,24 @@
 module.exports = {
+  important: true,
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      textColor: {
+        dark: "#34313a",
+      },
+      backgroundColor: {
+        brown: "rgba(26,24,29,.06)",
+      },
+    },
   },
   variants: {
-    extend: {},
+    extend: {
+      backgroundColor: ["active"],
+    },
   },
-  plugins: [],
-}
+  plugins: [
+    require("@tailwindcss/forms"),
+    // ...
+  ],
+};
